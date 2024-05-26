@@ -26,6 +26,19 @@ share/python-wheels/
 *.egg
 MANIFEST
 
+
+#CUSTOM
+project-files/
+logs/
+aardvark-metadata-files/
+outputs/annotated-maps/
+outputs/annotation-boundingbox-data/
+outputs/annotation-centroid-data/
+outputs/cropped-segments-to-ocr/
+outputs/geolocated-intersections-separated-by-map/
+outputs/georeferenced-maps/
+
+
 # PyInstaller
 #  Usually these files are written by a python script from a template
 #  before PyInstaller builds the exe, so as to inject date/other infos into it.
