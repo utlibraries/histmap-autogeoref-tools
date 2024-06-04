@@ -3,6 +3,6 @@ Python scripts for automating the georeferencing of scanned map images from larg
 
 If citing the software contained in this repository, please use the following citation format:
 
-Shensky, M., Strickland, K., Marden, A., Dubbe, H. 2024. Histmap-AutoGeoRef-Tools. GitHub. [Access data]. 
+Shensky, M., Strickland, K., Marden, A., Dubbe, H. 2024. Histmap-AutoGeoRef-Tools. GitHub. [Access date]. 
 https://github.com/utlibraries/histmap-autogeoref-tools. 
 
