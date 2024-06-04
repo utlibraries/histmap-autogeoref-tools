@@ -21,6 +21,7 @@ listofdirstocreate.append("project-files/objdet-pclmaps-sfi-streetintersections/
 
 
 
+
 for dir in listofdirstocreate:
     try:
         os.mkdir(dir)

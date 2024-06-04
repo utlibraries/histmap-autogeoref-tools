@@ -37,6 +37,8 @@ outputs/annotation-centroid-data/
 outputs/cropped-segments-to-ocr/
 outputs/geolocated-intersections-separated-by-map/
 outputs/georeferenced-maps/
+metadata-harvester.py
+*.json
 
 
 # PyInstaller
