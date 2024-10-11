@@ -2,7 +2,7 @@ steps:
   - name: Send repo to Dataverse
     uses: IQSS/dataverse-uploader@v1.6
     with:
-      DATAVERSE_TOKEN: ${{b2af9898-9723-4be0-8f28-92ced6dcb80b}}
+      DATAVERSE_TOKEN: ${{DATAVERSE_TOKEN}}
       DATAVERSE_SERVER: https://dataverse.tdl.org
       DATAVERSE_DATASET_DOI: doi:10.18738/T8/F21TUO
       DELETE: False
