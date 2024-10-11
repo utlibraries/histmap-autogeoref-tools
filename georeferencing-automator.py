@@ -580,6 +580,8 @@ for root, dirs, files in os.walk(scannedmapinputdir):
                                         with rasterio.open(output, 'r+') as rasteriods:
                                             rasteriods.crs = 'epsg:4326'
                                             rasteriods.transform = rasterio.transform.from_gcps(rasteriocleangcps)
+
+
                                         writelog("       SUCCESSFULLY GEOREFERENCED WITH RASTERIO...   " + output.split("/")[-1])
 
                                         # # Open the output file for writing:
