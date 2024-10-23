@@ -19,7 +19,13 @@ listofdirstocreate.append("project-files/objdet-pclmaps-sfi-streetintersections/
 listofdirstocreate.append("project-files/objdet-pclmaps-sfi-streetintersections/outputs/cropped-segments-to-ocr/vertical-segments/")
 listofdirstocreate.append("project-files/objdet-pclmaps-sfi-streetintersections/outputs/cropped-segments-to-ocr/horizontal-segments/")
 
-
+listofdirstocreate.append("project-files/objdet-pclmaps-sfi-streetintersections/outputs/accuracy-reports")
+listofdirstocreate.append("project-files/objdet-pclmaps-sfi-streetintersections/outputs/gcp-convex-hull-shapefiles")
+listofdirstocreate.append("project-files/objdet-pclmaps-sfi-streetintersections/outputs/gcp-geojson")
+listofdirstocreate.append("project-files/objdet-pclmaps-sfi-streetintersections/outputs/georeferenced-cogs")
+listofdirstocreate.append("project-files/objdet-pclmaps-sfi-streetintersections/outputs/geotiffs-compressed")
+listofdirstocreate.append("project-files/objdet-pclmaps-sfi-streetintersections/outputs/bb-shapefiles")
+listofdirstocreate.append("project-files/objdet-pclmaps-sfi-streetintersections/outputs/geotiffs-compressed")
 
 
 for dir in listofdirstocreate:
