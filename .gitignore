@@ -7,6 +7,18 @@ __pycache__/
 outputs/
 logs/
 archive/
+project-files/
+aardvark-metadata-files/
+outputs/annotated-maps/
+outputs/annotation-boundingbox-data/
+outputs/annotation-centroid-data/
+outputs/cropped-segments-to-ocr/
+outputs/geolocated-intersections-separated-by-map/
+outputs/georeferenced-maps/
+aardvark_autogeoreferencedmap_blank_template.json
+metadata-harvester.py
+accuracy-report-checker.py
+*.json
 
 # C extensions
 *.so
@@ -32,18 +44,6 @@ share/python-wheels/
 MANIFEST
 
 
-#CUSTOM
-project-files/
-logs/
-aardvark-metadata-files/
-outputs/annotated-maps/
-outputs/annotation-boundingbox-data/
-outputs/annotation-centroid-data/
-outputs/cropped-segments-to-ocr/
-outputs/geolocated-intersections-separated-by-map/
-outputs/georeferenced-maps/
-metadata-harvester.py
-*.json
 
 
 # PyInstaller
