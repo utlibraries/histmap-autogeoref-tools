@@ -1,5 +1,5 @@
 # histmap-autogeoref-tools
-This repository contains Python scripts for automating the georeferencing of scanned map images from large, standardized collections of historical maps. As of version 0.2.0-alpha the repository contains scripted processes for facilitating the automated georeferencing of historical Sanborn Fire Insurance maps of areas in the United States using an object detection model that has been trained to identify street intersection locations and associated street labels which can be matched by the georeferencing-automator.py script with street intersection data with geographic coordinates from OpenStreetMap.
+This repository contains Python scripts for automating the georeferencing of scanned map images from large, standardized collections of historical maps. As of version 0.2.0-alpha the repository contains scripted processes for facilitating the automated georeferencing of historical Sanborn Fire Insurance maps of areas in the United States using an object detection model that has been trained to identify street intersection locations and associated street labels which can be matched by the georeferencing-automator.py script with street intersection data with geographic coordinates from OpenStreetMap. Historical Sanborn Fire Insurance Maps of Texas that have been successfully georeferenced using this automated process have been published to the Texas GeoData Portal (https://geodata.lib.utexas.edu) where they can be previewed and downloaded by selecting individual maps of interest from the list of results at https://geodata.lib.utexas.edu/?f%5Bdct_creator_sm%5D%5B%5D=Sanborn+Map+Company+%28cartographer%29&f%5Bschema_provider_s%5D%5B%5D=Texas&q=&search_field=all_fields.
 
 
 ## Citing
@@ -8,9 +8,10 @@ If citing the software contained in this repository, please use the following ci
 Shensky, M., Strickland, K., Marden, A., Dubbe, H. 2024. Histmap-AutoGeoRef-Tools [version]. GitHub. [Access date].
 https://github.com/utlibraries/histmap-autogeoref-tools.
 
-## Associated Data
 
-Associated data for the Texas Sanborn Fire Insurance Map georeferencing project can be accessed at:
+## Associated Data and Object Detection Model
+
+Associated data and the trained street intersection object detection model for the Texas Sanborn Fire Insurance Map georeferencing project can be accessed at:
 
 Shensky, M., Strickland, K., Marden, A., Dubbe, H. 2024. Data to Support Automated Georeferencing Workflow for Historical Sanborn Fire Insurance Maps of Texas. Dataset. https://doi.org/10.18738/T8/KEE3TT Texas Data Repository, V3, UNF:6:+ZeDaFMzriIBTvSRTR0UcQ== [fileUNF]
 
